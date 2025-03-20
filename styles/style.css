@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('../images/BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.truth_dare_heading{
+    color: #c80036;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.glasses{
+    background-color: #0c1844;
+    height: 10px;
+    width: 40px;
+}
+.buttons a{
+    background-color: #0c1844;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: padding 0.3s ease;
+}
+.buttons a:hover{
+    padding: 30px 60px;
+}
+.emoji{
+    background-color: rgb(255, 213, 0);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:80px 50px;
+    border: 10px #c80036;
+}
